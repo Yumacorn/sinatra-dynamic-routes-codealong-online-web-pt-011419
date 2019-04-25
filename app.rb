@@ -23,5 +23,6 @@ class App < Sinatra::Base
     @a = params[:num1]
     @b = params[:num2]
     "#{@a} and #{@b}"
+    "#{@a*@b}"
   end
 end
